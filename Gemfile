@@ -9,7 +9,7 @@ gem 'mysql2', '~> 0.3.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 
-gem 'bootsnap'
+gem 'rails-ujs'
 #FROM DC
 
 source 'http://gems.gemfury.com/fHtphqCq9zLeDRvssKD4/'
@@ -243,7 +243,7 @@ group :development, :test do
   gem "rubocop"
   gem 'spring'
   gem 'spring-commands-rspec'
-  # gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 group :test do

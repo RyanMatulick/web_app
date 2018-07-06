@@ -1,7 +1,5 @@
 class MiraclesController < ApplicationController
-  layout 'react_app'
+  layout 'application'
 
-  def index
-    #puts  "IN MIRACLES CONTROLLER"
-  end
+  def index() end
 end

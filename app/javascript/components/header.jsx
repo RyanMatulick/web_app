@@ -16,7 +16,6 @@ export class Header extends Component {
               <h1>HEADER THING</h1>
               <Button id={ 'Tooltip' } className={ "index-icon link-icon" } color="Link" onClick={ () => { history.push(`/`) }}>BIG BUTTON</Button>
             </div>
-
           </div>
         </nav>
       </header>

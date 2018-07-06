@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+ .main{
+  padding-top: 5em;
+}
+
+// NAVIGATION
+
+.navbar.fixed-top {
+  padding: 0.5rem 0;
+  background-color: red;
+}
+
+.navbar-header {
+  .website {
+    color: #fff;
+    font-weight: 400;
+  }
+}
