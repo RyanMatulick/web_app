@@ -1,0 +1,35 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": "> 1%",
+          "uglify": true
+        },
+        "useBuiltIns": true
+      }
+    ],
+    "react",
+    "stage-2"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    [
+      "istanbul", {
+        "exclude": [
+          "**/*_spec.jsx?"
+        ]
+      }
+    ],
+    "transform-runtime",
+    "transform-object-rest-spread",
+    [
+      "transform-class-properties",
+      {
+        "spec": true
+      }
+    ]
+  ]
+}

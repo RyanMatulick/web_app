@@ -1,0 +1,1 @@
+window.MiraclesApp = require('./containers/miracles_app');
