@@ -1,5 +1,10 @@
 # README
 
+Installation for windows:
+https://gorails.com/setup/windows/10
+using ruby 2.5.1 and rails 5.2.1 Follow RVM and install mysql
+
+
 USING bash.exe
 
 Run in two terminal:
