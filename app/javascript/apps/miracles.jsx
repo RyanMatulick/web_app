@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { Route } from 'react-router-dom'
+import { Route, withRouter } from 'react-router-dom'
 import Header from 'components/header'
 import Body from 'components/body'
 
-export default class MiraclesApp extends Component {
+export class MiraclesApp extends Component {
   
   render() {
     return(
@@ -14,3 +14,5 @@ export default class MiraclesApp extends Component {
     )
   }
 }
+
+export default withRouter(MiraclesApp)

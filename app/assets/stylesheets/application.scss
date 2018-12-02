@@ -14,15 +14,17 @@
  *= require_self
  */
 
- .main{
-  padding-top: 5em;
-}
-
 // NAVIGATION
 
+.container{
+  max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .navbar.fixed-top {
-  padding: 0.5rem 0;
   background-color: red;
+  position: relative;
 }
 
 .navbar-header {

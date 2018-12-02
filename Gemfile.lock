@@ -419,7 +419,6 @@ GEM
     paper_trail-association_tracking (1.0.0)
     parser (2.5.1.0)
       ast (~> 2.4.0)
-    pg (0.20.0)
     phantomjs (2.1.1.0)
     poltergeist (1.18.1)
       capybara (>= 2.1, < 4)
@@ -796,7 +795,6 @@ DEPENDENCIES
   oj
   omniauth-google-oauth2
   paper_trail
-  pg (~> 0.20.0)
   poltergeist
   protected_attributes
   pry
@@ -861,4 +859,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.2
+   1.17.1

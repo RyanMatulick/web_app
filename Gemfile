@@ -77,7 +77,7 @@ group :console do
 end
 
 # Models
-gem 'pg', '~> 0.20.0'
+#gem 'pg', '~> 0.20.0'
 gem "squeel", '~> 1.2.3'
 gem 'ransack'
 gem 'ancestry'
